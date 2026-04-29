@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #0f3426;
+  color: rgb(158, 224, 235);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  color: rgb(206, 179, 126);
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px;
+  background: linear-gradient(135deg, #8e2de2, #a48bd6);
+  color: rgb(11, 11, 10);
+}
+
+.hero-img {
+  width:  100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  border: none;
+  background: rgb(20, 19, 19);
+  color: #4a00e0;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.about, .projects, .contact {
+  padding: 50px;
+  text-align: center;
+  font-size: bold;
+  font-style: italic;
+}
+
+.card {
+  width: 600px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  background: #dc7a7a;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.contact {
+  background: #8b72bc;
+  font: italic;
+  font-size: bold;
+}
