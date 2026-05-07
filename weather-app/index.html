@@ -55,7 +55,7 @@
           alert("Enter city name!");
           return;
         }
-        let url = "https://api.openweather.org/data/2.5/weather?q=" + city + "&units=metric&appid=YOUR_API_KEY";
+        let url = "https://api.openweather.org/data/2.5/weather?q=" + city + "&units=metric&appid=9134c74cebb49226bbadde8bc67321b2";
         let res = await fetch(url);
         let data = await res.json();
         if(data.cod == "404"){
